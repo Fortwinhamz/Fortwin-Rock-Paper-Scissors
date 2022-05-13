@@ -4,13 +4,18 @@
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* body{
+a{
+  text-decoration: none;
+  color: #202020;
+  padding-left: 10px;
+}
+.code{
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 325px;
   justify-content: center;
-} */
+  margin-left: auto;
+  margin-right: auto;
+  /* background: #e7e7e7; */
+}
 .container{
   background:linear-gradient(360deg, rgb(236, 236, 236) , #e7e7e7) ;
   height: 600px;
