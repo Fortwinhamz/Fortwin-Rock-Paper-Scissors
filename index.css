@@ -50,3 +50,5 @@ button:hover{
   color: rgb(0, 0, 0);
   background:#fff;
 }
+
+input{padding:10px; border:1px solid lightgrey; border-radius:5px;}
