@@ -4,7 +4,7 @@ const resultDisplay = document.getElementById('result');
 const possibleChoices = document.querySelectorAll('button');
 let userChoice;
 let result;
-const yourName = prompt('Enter Your Name');
+const yourName  = document.getElementById("playername");
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click' , (e) => {
   userChoice = e.target.id;
